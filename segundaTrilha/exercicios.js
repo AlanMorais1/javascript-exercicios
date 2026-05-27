@@ -48,3 +48,37 @@ if ((ano % 4 === 0) && (ano % 100 !== 0) || (ano % 400 === 0)) {
 } else {
   console.log(`${ano} não é um ano bissexto.`);
 }
+
+// OPERADOR TERNÁRIO / OPERADOR CONDICIONAL
+
+const nome = 'Fernando'
+const saudacao = nome ? `Olá, ${nome}` : 'Olá, pessoa';
+// nome ? saudar(nome) : saudar ('pessoa')
+
+
+//const nome = 'Fernando';
+//let saudacao;
+
+//if (nome) {
+//  saudacao = `Olá, ${nome}`;
+//} else {
+//  saudacao = 'Olá, pessoa';
+//}
+
+
+// SWITCH CASE
+
+const avaliacao = 2;
+switch (avaliacao) {
+  case 5:
+    console.log('Excelente');
+    break;
+    case 4:
+    console.log('Bom');
+    break;
+    case 3:
+    console.log('Regular');
+    break;  
+  default:
+    console.log('Avaliação baixa');
+}
