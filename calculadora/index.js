@@ -14,7 +14,7 @@
     leitor.question('Digite a operação:\n+: soma\n-: subtração\n*: multiplicação\n/: divisao\n**: potência\n%: resto da divisão\nraiz: raiz quadrada\n> ', (operacao) => {
 
 
-                // 👉 Se for raiz, NÃO pede o segundo número
+                // Se for raiz, NÃO pede o segundo número
         if (operacao === 'raiz') {
             const resultado = raizQuadrada(Number(numero1))
             console.log('Resultado:', resultado)
